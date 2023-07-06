@@ -23,9 +23,13 @@ Founded in 1991 by [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds
 There are multiple types:
 
 * DEB *Debian*, *Ubuntu*, *Mint*, *...*
+
 <br>
+
 * RPM *Red Hat*, *CentOS*, *Rocky Linux*
+
 <br>
+
 * FreeBSD
 * ...
 
