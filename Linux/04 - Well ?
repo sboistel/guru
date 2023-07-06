@@ -84,18 +84,55 @@ export PS1="[\t-${RED}\u${NEUTRAL}-@\h${BLUE} \n\w${NEUTRAL}:# "
 
 -> # basic commands <-
 
-* Who am I ?
-    * whoami: print effective userid
-    * who: show who is logged on
-    * w: Show who is logged on and what they are doing.
+## THE HUDGE COMMANDE
 
-* Where am I ?
-    * pwd: print name of current/working directory
+* man: display online manual documentation pages
+* help: It is also possible to use this parameters to list command parameters
+
+* Example: help
+
+> $ help --help
+
+```bash
+help: help [-dms] [pattern ...]
+    Display information about builtin commands.
+
+    Displays brief summaries of builtin commands.  If PATTERN is
+    specified, gives detailed help on all commands matching PATTERN,
+    otherwise the list of help topics is printed.
+
+    Options:
+      -d	output short description for each topic
+      -m	display usage in pseudo-manpage format
+      -s	output only a short usage synopsis for each topic matching
+    		PATTERN
+
+    Arguments:
+      PATTERN	Pattern specifying a help topic
+
+    Exit Status:
+    Returns success unless PATTERN is not found or an invalid option is given
+```
+
+## AM I
+
+* Who
+    * whoami:   print effective userid
+    * who:  show who is logged on
+    * w:    Show who is logged on and what they are doing.
+
+<br>
+
+* Where
+    * pwd:  print name of current/working directory
 
 By default your are into the home directory of the user.
 
+<br>
+
 * Discovering
-    * ls: list directory contents
+    * cd:   Change the shell working directory.
+    * ls:   list directory contents
     * tree: list contents of directories in a tree-like format.
 
 ---
