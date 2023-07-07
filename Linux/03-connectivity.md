@@ -1,14 +1,28 @@
 %title: Linux
 %author: sboistel
-%wiki: https://sboistel.github.io/docki/linux/
+%date: 2023-06
 
--> # How to connect ? <-
+-> # How to reach endpoint ? <-
+
+It exist some ways to entering in interactivity with a remote linux.
+We used to interact with ssh protocol by default.
+
+-> # TTY <-
+
+## Console
+
+The tty utility writes the name of
+the terminal attached to standard input to standard output
+
+TTY meaning TeleTYperwriter
+
+-> # SSH ? <-
 
 ## Secure Shell Protocol (SSH)
 
-SSH running through 22 tcp port by default is a protocol to
-uses public-key cryptography to authenticate
-the remote computer and allow it to authenticate the user
+SSH running through 22 tcp port by default
+SSH is a protocol to uses public-key cryptography
+to authenticate the remote computer and allow it to authenticate the user
 
 <br>
 
@@ -24,15 +38,17 @@ usage: ssh [-46AaCfGgKkMNnqsTtVvXxYy] [-B bind_interface]
            [-w local_tun[:remote_tun]] destination [command [argument ...]]
 ```
 
-<br>
-
 * Example
 
 ```shell
 ssh $USER@$IP_Address
+```
 
+```shell
 ssh toto@192.168.1.x
 ```
+
+Don't be confused, your access should be open on the remote machine obviously.
 
 ---
 

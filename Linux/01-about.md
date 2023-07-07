@@ -1,26 +1,29 @@
 %title: Linux
 %author: sboistel
-%wiki: https://sboistel.github.io/docki/linux/
+%date: 2023-06
 
--> # What the hell Linux is it <-
+-> # What the hell Linux is it ? <-
 
 ---
 
-# Linux Story
+-> # Story <-
 
-*GNU/Linux* is a family of operating systems
-_open source_ *Unix-like* (based on the Linux kernel)
+## GNU/Linux
+
+It is a family of OS _open source_
+(based on the Linux kernel)
+
 Founded in 1991 by [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds).
 
 ---
 
-# Distribution
+-> # Distribution  <-
 
--> ## What is it actually ? <-
+## What is it ?
 
 <br>
 
-There are multiple types:
+Those are multiple types:
 
 * DEB *Debian*, *Ubuntu*, *Mint*, *...*
 * RPM *Red Hat*, *CentOS*, *Rocky Linux*
@@ -31,9 +34,9 @@ There are multiple types:
 
 Which difference between them ?
 
-_Everyone could create is own distribution by the way._
-
 * [Linux Distribution Timeline](resources/01-Linux_Distribution_Timeline.svg)
+
+_Everyone could create is own distribution by the way._
 
 * Browse distros -> [distrowatch](https://distrowatch.com/) <-
 
