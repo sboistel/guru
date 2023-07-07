@@ -15,7 +15,7 @@
 help: help [-dms] [pattern ...]
     Display information about builtin commands.
 
-    Displays brief summaries of builtin commands.  If PATTERN is
+    Displays brief summaries of builtin commands. If PATTERN is
     specified, gives detailed help on all commands matching PATTERN,
     otherwise the list of help topics is printed.
 
@@ -48,12 +48,14 @@ help: help [-dms] [pattern ...]
     * cd:   Change the shell working directory.
     * ls:   List directory contents
     * tree: List contents of directories in a tree-like format.
-    * grep: print lines that match patterns
+    * cat: concatenate files and print on the standard output
 
 <br>
 
 * Where
-    * pwd:  Print name of current/working directory
+    * pwd:   Print name of current/working directory
+    * uname: Print system information
+      * arch: print machine hardware name.
 
 By default your are into the user home directory.
 
