@@ -53,4 +53,16 @@ grep toto test.txt
 
 ---
 
+# Which
+
+Which returns the pathnames of the files
+which would be executed
+
+```bash
+$ which uptime
+/usr/bin/uptime
+```
+
+---
+
 -> * EOF

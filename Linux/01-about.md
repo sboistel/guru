@@ -21,6 +21,8 @@ Founded in 1991 by [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds
 
 ## What is it ?
 
+A distribution allows the kernel to be interpreted.
+
 <br>
 
 Those are multiple types:

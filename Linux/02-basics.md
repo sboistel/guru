@@ -8,6 +8,7 @@
 * Services
 * Daemon
 * Boot Process
+* Env Variables
 * File System
 
 ---
@@ -64,6 +65,24 @@ The start-up of a Linux operating system follows a step-by-step process.
         * Boot Loader ( *Grub*.2, *rEFInd*, *MSConfig*, ... )
             * Kernel
                 * Systemd ( _or initd_ )
+
+---
+
+# Env Variables
+
+Environment variables are a way to influence
+the behavior of software on your system.
+
+For example, the **"LANG"** environment variable
+determines the language that software uses to
+communicate with the user.
+
+```bash
+$ env
+SHELL=/bin/bash
+PWD=/home/jdoe
+LOGNAME=jdoe
+```
 
 ---
 
