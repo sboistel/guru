@@ -2,7 +2,6 @@
 margin: 0
 width: 1920
 height: 1200
-transition: slide
 ---
 <!-- .slide: data-auto-animate -->
 # HUDGE COMMANDS
