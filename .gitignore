@@ -3,3 +3,6 @@
 
 # Ignore VSCode workspace
 .vscode
+
+# Ignore other files
+Challenges.md
