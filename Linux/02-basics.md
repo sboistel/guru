@@ -7,7 +7,6 @@ transition: slide
 <!-- .slide: data-auto-animate -->
 # Architecture
 
-- Architecture
 + Kernel
 + Services
 + Daemon
