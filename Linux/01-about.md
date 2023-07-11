@@ -9,21 +9,16 @@ transition: slide
 ::: Author sboistel
 
 # Linux
+## **What the hell Linux is it ?**
+
 ---
 <!-- .slide: data-auto-animate -->
-
 # Linux
-##### **What the hell Linux is it ?**
-
-
----
-
-# Story
-## GNU/Linux
+## GNU/Linux Story
 
 It is a family of OS _open source_ (based on the Linux kernel)
 
-Founded in 1991 by [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds).
+\- Founded in 1991 by [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds).
 
 ---
 <!-- .slide: data-auto-animate -->
@@ -32,7 +27,7 @@ Founded in 1991 by [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds
 
 A distribution allows the kernel to be interpreted.
 
-- Those are multiple types:
+Those are multiple types:
 + DEB *Debian*, *Ubuntu*, *Mint*, *...*
 + RPM *Red Hat*, *CentOS*, *Rocky Linux*
 + FreeBSD
@@ -48,3 +43,6 @@ Which difference between them ?
 _Everyone could create is own distribution by the way._
 
 Browse distros [distrowatch](https://distrowatch.com/)
+
+---
+# EOF

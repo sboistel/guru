@@ -69,3 +69,6 @@ which would be executed
 $ which uptime
 /usr/bin/uptime
 ```
+
+---
+# EOF

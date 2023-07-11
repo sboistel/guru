@@ -99,3 +99,6 @@ These are the common top-level directories associated
 | /tmp        | Temporary space, typically _cleared on reboot_.           |
 | /usr        | User related programs.                                  |
 | /var        | Log Files.                                              |
+
+---
+# EOF

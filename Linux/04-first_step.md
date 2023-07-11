@@ -7,7 +7,7 @@ transition: slide
 <!-- .slide: data-auto-animate -->
 # First Step
 
-Once you are connected, they are few things to know:
+Once you are connected, they are few things to know
 
 + banner:   ( Not mandatory )
 + prompt (PS1):   ( *USER*, *hostname*, *path* )
@@ -35,8 +35,7 @@ Welcome to Ubuntu 22.04.2 LTS (GNU/Linux 5.15.0-75-generic x86_64)
   Swap usage:   0%
 
 ...
-...
-...
+
 
 Last login: Thu Jul  6 11:27:30 2023 from 10.0.0.x
 ```
@@ -101,3 +100,6 @@ Let see the result
 [16:02:21-lully-@ubt-srv-01]
 ~:#
 ```
+
+---
+# EOF
