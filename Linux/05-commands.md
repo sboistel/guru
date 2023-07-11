@@ -1,15 +1,20 @@
-%title: Linux
-%author: sboistel
-%date: 2023-06
+---
+margin: 0
+width: 1920
+height: 1200
+transition: slide
+---
+<!-- .slide: data-auto-animate -->
+# HUDGE COMMANDS
 
--> # HUDGE COMMANDS <-
+- [man](https://linuxcommand.org/): display online manual documentation pages
++ help: It is also possible to use this parameters to list command parameters
 
-* [man](https://linuxcommand.org/): display online manual documentation pages
-* help: It is also possible to use this parameters to list command parameters
+Example: help
 
-* Example: help
-
-> $ help --help
+```bash
+$ help --help
+```
 
 ```bash
 help: help [-dms] [pattern ...]
@@ -33,39 +38,31 @@ help: help [-dms] [pattern ...]
 ```
 
 ---
+<!-- .slide: data-auto-animate -->
+# HUDGE COMMANDS
 
--> # 3 W <-
+## 3 W
 
-* Who
-    * whoami: Print effective userid
-    * who:    Show who is logged on
-    * w:      Show who is logged on and what they are doing.
-    * ip:     Network interface parameters
++ Who
+    + whoami: Print effective userid
+    + who:    Show who is logged on
+    + w:      Show who is logged on and what they are doing.
+    + ip:     Network interface parameters
 
-<br>
++ Discovering
+    + cd:   Change the shell working directory.
+    + ls:   List directory contents
+    + tree: List contents of directories in a tree-like format.
+    + cat: concatenate files and print on the standard output
 
-* Discovering
-    * cd:   Change the shell working directory.
-    * ls:   List directory contents
-    * tree: List contents of directories in a tree-like format.
-    * cat: concatenate files and print on the standard output
++ Where
+    + pwd:   Print name of current/working directory
+    + uname: Print system information
+      + arch: print machine hardware name.
 
-<br>
++ By default your are into the user home directory.
 
-* Where
-    * pwd:   Print name of current/working directory
-    * uname: Print system information
-      * arch: print machine hardware name.
-
-By default your are into the user home directory.
-
-<br>
-
-* When
-  * last: show a listing of last logged in users
-  * date: print or set the system date and time
-  * uptime: Tell how long the system has been running.
-
----
-
--> * EOF
++ When
+  + last: show a listing of last logged in users
+  + date: print or set the system date and time
+  + uptime: Tell how long the system has been running.

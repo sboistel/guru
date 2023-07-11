@@ -7,12 +7,10 @@ Let's have a look arround thoses chapters !
 
 ---
 
-This repository is based on [mdp tool](https://github.com/visit1985/mdp) :
+This repository is based on [Advanced Slides for Obsidian](https://github.com/MSzturc/obsidian-advanced-slides)
 
-```bash
-git clone https://github.com/visit1985/mdp.git
-cd mdp
-make
-make install
-mdp sample.md
-```
+<p align="center">
+  <img  src="https://raw.githubusercontent.com/MSzturc/obsidian-advanced-slides/main/imgs/demo.gif">
+</p>
+
+Advanced Slides is the perfect slide deck extension for [Obsidian](https://obsidian.md)

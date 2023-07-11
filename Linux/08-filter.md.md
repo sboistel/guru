@@ -1,16 +1,20 @@
-%title: Linux
-%author: sboistel
-%date: 2023-06
+---
+margin: 0
+width: 1920
+height: 1200
+transition: slide
+---
+<!-- .slide: data-auto-animate -->
+# Looking for something ?
 
--> # Looking for something ? <-
-
-* locate: list files in databases that match a pattern
-* find: search for files in a directory hierarchy
-* grep: print lines that match patterns
++ locate: list files in databases that match a pattern
++ find: search for files in a directory hierarchy
++ grep: print lines that match patterns
 
 ---
-
-# Locate
+<!-- .slide: data-auto-animate -->
+# Looking for something ?
+## Locate
 
 Just searching where any file it is,
 It will appear each file name from everywhere
@@ -31,8 +35,9 @@ updatedb
 ```
 
 ---
-
-# Find
+<!-- .slide: data-auto-animate -->
+# Looking for something ?
+## Find
 
 Find something (by default in current directory)
 filtered by few parameters
@@ -42,8 +47,9 @@ find ~/ -type d -name secrets
 ```
 
 ---
-
-# Grep
+<!-- .slide: data-auto-animate -->
+# Looking for something ?
+## Grep
 
 Search for PATTERNS in each FILE.
 
@@ -52,8 +58,9 @@ grep toto test.txt
 ```
 
 ---
-
-# Which
+<!-- .slide: data-auto-animate -->
+# Looking for something ?
+## Which
 
 Which returns the pathnames of the files
 which would be executed
@@ -62,7 +69,3 @@ which would be executed
 $ which uptime
 /usr/bin/uptime
 ```
-
----
-
--> * EOF

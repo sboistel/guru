@@ -1,31 +1,36 @@
-%title: Linux
-%author: sboistel
-%date: 2023-06
-
--> # Silk Key Touch <-
+---
+margin: 0
+width: 1920
+height: 1200
+transition: slide
+---
+<!-- .slide: data-auto-animate -->
+# Key Touch
 
 Before typing anything into your prompt,
 be sure that your command is right !
 
-* _Remind `man` command or `--help` parameter_
+::: ℹ _Remind`man` command or `--help` parameter_
 
 ---
+<!-- .slide: data-auto-animate -->
+# Key Touch
+## Directory
 
--> # Directory <-
+> mkdir: make directories
 
-* mkdir: make directories
-
-Directories could be created
-if they don't already exist
+Directories could be created if they don't already exist
 
 ---
+<!-- .slide: data-auto-animate -->
+# Key Touch
+## File
 
--> # File <-
-
-* touch
+> touch
 
 Change the access and modification times to the specified time
 instead of the current time of day.
+
 The argument is of the form “[[CC]YY]MMDDhhmm[.SS]” where each pair of
 letters represents the following:
 
@@ -44,14 +49,10 @@ the values default to the current year.
 If the “SS” letter pair is not specified, the value defaults to 0
 
 ---
-
+<!-- .slide: data-auto-animate -->
+# Key Touch
 ## Create file with specified date
 
-* stat
+> stat
 
-* acl ?
-        * _Next sessions._
-
----
-
--> * EOF
+> acl ? > _Next sessions._
