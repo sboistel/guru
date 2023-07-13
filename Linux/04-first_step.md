@@ -1,8 +1,3 @@
----
-margin: 0
-width: 1920
-height: 1200
----
 <!-- .slide: data-auto-animate -->
 # First Step
 
@@ -14,6 +9,7 @@ Once you are connected, they are few things to know
 ---
 <!-- .slide: data-auto-animate -->
 # First Step
+
 ## Banner
 
 Sometimes, distribution like ubuntu set a default banner with relevant informations
@@ -35,7 +31,6 @@ Welcome to Ubuntu 22.04.2 LTS (GNU/Linux 5.15.0-75-generic x86_64)
 
 ...
 
-
 Last login: Thu Jul  6 11:27:30 2023 from 10.0.0.x
 ```
 
@@ -47,6 +42,7 @@ We are here able to see :
 ---
 <!-- .slide: data-auto-animate -->
 # First Step
+
 ## Prompt
 
 Prompt is defined by multiple items :
@@ -57,10 +53,13 @@ Prompt is defined by multiple items :
   - *$*: means user
   - *#*: means root
   + *~*: (tilda): home directory
+
 ---
 <!-- .slide: data-auto-animate -->
 # First Step
+
 ## Prompt
+
 ### Example
 
 ```bash
@@ -79,7 +78,9 @@ lully@ubt-srv-01:~/demo$
 ---
 <!-- .slide: data-auto-animate -->
 # First Step
+
 ## Prompt
+
 ### Could we mod it ?
 
 Open the `.bashrc` file into your home directory
@@ -99,6 +100,3 @@ Let see the result
 [16:02:21-lully-@ubt-srv-01]
 ~:#
 ```
-
----
-# EOF

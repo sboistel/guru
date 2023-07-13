@@ -1,8 +1,3 @@
----
-margin: 0
-width: 1920
-height: 1200
----
 <!-- .slide: data-auto-animate -->
 # Looking for something ?
 
@@ -12,7 +7,8 @@ height: 1200
 
 ---
 <!-- .slide: data-auto-animate -->
-# Looking for something ?
+# Looking for something
+
 ## Locate
 
 Just searching where any file it is,
@@ -36,6 +32,7 @@ updatedb
 ---
 <!-- .slide: data-auto-animate -->
 # Looking for something ?
+
 ## Find
 
 Find something (by default in current directory)
@@ -48,6 +45,7 @@ find ~/ -type d -name secrets
 ---
 <!-- .slide: data-auto-animate -->
 # Looking for something ?
+
 ## Grep
 
 Search for PATTERNS in each FILE.
@@ -59,6 +57,7 @@ grep toto test.txt
 ---
 <!-- .slide: data-auto-animate -->
 # Looking for something ?
+
 ## Which
 
 Which returns the pathnames of the files
@@ -68,6 +67,3 @@ which would be executed
 $ which uptime
 /usr/bin/uptime
 ```
-
----
-# EOF

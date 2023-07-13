@@ -1,13 +1,9 @@
----
-margin: 0
-width: 1920
-height: 1200
----
 <!-- .slide: data-auto-animate -->
 # HUDGE COMMANDS
 
 - [man](https://linuxcommand.org/): display online manual documentation pages
 - help: It is also possible to use this parameters to list command parameters
+- whatis: display one-line manual page descriptions
 
 Example:
 
@@ -57,7 +53,6 @@ First command
     + cd:   Change the shell working directory.
     + ls:   List directory contents
     + tree: List contents of directories in a tree-like format.
-    + cat: concatenate files and print on the standard output
 
 ---
 <!-- .slide: data-auto-animate -->
@@ -65,6 +60,18 @@ First command
 
 - Who
 - Discovering
+- What's inside
+    + cat: concatenate files and print on the standard output
+    + more: file perusal filter for crt viewing
+    + less: opposite of more
+
+---
+<!-- .slide: data-auto-animate -->
+# HUDGE COMMANDS
+
+- Who
+- Discovering
+- What's inside
 - Where
     + pwd:   Print name of current/working directory
     + uname: Print system information
@@ -78,10 +85,25 @@ First command
 
 - Who
 - Discovering
+- What's inside ?
 - Where
 - When
   + last: show a listing of last logged in users
   + date: print or set the system date and time
   + uptime: Tell how long the system has been running.
+
 ---
-# EOF
+<!-- .slide: data-auto-animate -->
+# HUDGE COMMANDS
+
+- Who
+- Discovering
+- What's inside
+- Where
+- When
+- How
+	+ mkdir: make directories
+	+ touch: change file timestamps
+	+ cp: copy files and directories
+	+ mv: move (**rename**) files
+	+ rm: remove files or directories

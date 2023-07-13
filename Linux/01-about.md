@@ -1,12 +1,4 @@
----
-margin: 0
-width: 1920
-height: 1200
----
 <!-- .slide: data-auto-animate -->
-::: Date 2023
-::: Author sboistel
-
 # Linux
 ## **What the hell Linux is it ?**
 
@@ -42,6 +34,3 @@ Which difference between them ?
 _Everyone could create is own distribution by the way._
 
 Browse distros [distrowatch](https://distrowatch.com/)
-
----
-# EOF

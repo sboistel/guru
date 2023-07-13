@@ -1,8 +1,3 @@
----
-margin: 0
-width: 1920
-height: 1200
----
 <!-- .slide: data-auto-animate -->
 # Access Control List
 
@@ -25,7 +20,29 @@ drwxrwxr-x 3 jdoe jdoe xx x xxxx Directory
 ---
 <!-- .slide: data-auto-animate -->
 # Access Control List
+
+## Stat
+
+Display file or file system status
+
+```bash
+$ stat fin_du_monde
+  File: fin_du_monde
+  Size: 0         	Blocks: 0          IO Block: 4096   regular empty file
+Device: fd00h/64768d	Inode: 1221939     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/   lully)   Gid: ( 1000/   lully)
+Access: 2012-12-21 13:26:00.000000000 +0100
+Modify: 2012-12-21 13:26:00.000000000 +0100
+Change: 2023-07-07 16:08:55.231243938 +0200
+ Birth: 2023-07-07 15:58:59.154952717 +0200
+```
+
+---
+<!-- .slide: data-auto-animate -->
+# Access Control List
+
 ## Super User ?
+
 ### Run AS
 
 > sudo: execute a command as another user.
@@ -41,6 +58,7 @@ Often use to reach `root` session
 ---
 <!-- .slide: data-auto-animate -->
 # Access Control List
+
 ## Mod
 
 * chown
@@ -49,6 +67,7 @@ Often use to reach `root` session
 ---
 <!-- .slide: data-auto-animate -->
 # Access Control List
+
 ## Ownership
 
 > chown: change file owner and group
@@ -58,9 +77,7 @@ Change the owner and/or group of each FILE to OWNER and/or GROUP
 ---
 <!-- .slide: data-auto-animate -->
 # Access Control List
+
 ## Permissions
 
 > chmod: change file mode bit
-
----
-# EOF
