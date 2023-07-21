@@ -1,15 +1,15 @@
-%title: Linux
-%author: sboistel
-%date: 2023-06
+<!-- .slide: data-auto-animate -->
+# HUDGE COMMANDS
 
--> # HUDGE COMMANDS <-
+- [man](https://linuxcommand.org/): display online manual documentation pages
+- help: It is also possible to use this parameters to list command parameters
+- whatis: display one-line manual page descriptions
 
-* [man](https://linuxcommand.org/): display online manual documentation pages
-* help: It is also possible to use this parameters to list command parameters
+Example:
 
-* Example: help
-
-> $ help --help
+```bash
+$ help --help
+```
 
 ```bash
 help: help [-dms] [pattern ...]
@@ -33,39 +33,77 @@ help: help [-dms] [pattern ...]
 ```
 
 ---
+<!-- .slide: data-auto-animate -->
+# HUDGE COMMANDS
 
--> # 3 W <-
+First command
 
-* Who
-    * whoami: Print effective userid
-    * who:    Show who is logged on
-    * w:      Show who is logged on and what they are doing.
-    * ip:     Network interface parameters
-
-<br>
-
-* Discovering
-    * cd:   Change the shell working directory.
-    * ls:   List directory contents
-    * tree: List contents of directories in a tree-like format.
-    * cat: concatenate files and print on the standard output
-
-<br>
-
-* Where
-    * pwd:   Print name of current/working directory
-    * uname: Print system information
-      * arch: print machine hardware name.
-
-By default your are into the user home directory.
-
-<br>
-
-* When
-  * last: show a listing of last logged in users
-  * date: print or set the system date and time
-  * uptime: Tell how long the system has been running.
++ Who
+    + whoami: Print effective userid
+    + who:    Show who is logged on
+    + w:      Show who is logged on and what they are doing.
+    + ip:     Network interface parameters
 
 ---
+<!-- .slide: data-auto-animate -->
+# HUDGE COMMANDS
 
--> * EOF
+- Who
+- Discovering
+    + cd:   Change the shell working directory.
+    + ls:   List directory contents
+    + tree: List contents of directories in a tree-like format.
+
+---
+<!-- .slide: data-auto-animate -->
+# HUDGE COMMANDS
+
+- Who
+- Discovering
+- What's inside
+    + cat: concatenate files and print on the standard output
+    + more: file perusal filter for crt viewing
+    + less: opposite of more
+
+---
+<!-- .slide: data-auto-animate -->
+# HUDGE COMMANDS
+
+- Who
+- Discovering
+- What's inside
+- Where
+    + pwd:   Print name of current/working directory
+    + uname: Print system information
+      + arch: print machine hardware name.
+
++ By default your are into the user home directory.
+
+---
+<!-- .slide: data-auto-animate -->
+# HUDGE COMMANDS
+
+- Who
+- Discovering
+- What's inside ?
+- Where
+- When
+  + last: show a listing of last logged in users
+  + date: print or set the system date and time
+  + uptime: Tell how long the system has been running.
+
+---
+<!-- .slide: data-auto-animate -->
+# HUDGE COMMANDS
+
+- Who
+- Discovering
+- What's inside
+- Where
+- When
+- How
+	+ mkdir: make directories
+	+ touch: change file timestamps
+	+ cp: copy files and directories
+	+ mv: move (**rename**) files
+	+ rm: remove files or directories

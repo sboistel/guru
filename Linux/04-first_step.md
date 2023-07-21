@@ -1,26 +1,20 @@
-%title: Linux
-%author: sboistel
-%date: 2023-06
+<!-- .slide: data-auto-animate -->
+# First Step
 
--> # Successfully connected <-
+Once you are connected, they are few things to know
 
-Once you are connected,
-they are few things to know:
-
-* banner:   ( Not mandatory )
-* prompt (PS1):   ( *USER*, *hostname*, *path* )
++ banner:   ( Not mandatory )
++ prompt (PS1):   ( *USER*, *hostname*, *path* )
 
 ---
+<!-- .slide: data-auto-animate -->
+# First Step
 
-# Banner
+## Banner
 
-Sometimes, distribution like ubuntu set a default
-banner with relevant informations
+Sometimes, distribution like ubuntu set a default banner with relevant informations
 
-* Example: Ubuntu like
-
-<br>
-
+Let's see the example :
 ```bash
 Welcome to Ubuntu 22.04.2 LTS (GNU/Linux 5.15.0-75-generic x86_64)
 
@@ -36,58 +30,58 @@ Welcome to Ubuntu 22.04.2 LTS (GNU/Linux 5.15.0-75-generic x86_64)
   Swap usage:   0%
 
 ...
-...
-...
 
 Last login: Thu Jul  6 11:27:30 2023 from 10.0.0.x
 ```
 
-We are able to see
-
-* Ip address
-* System monitoring status
-* Last connection
+We are here able to see :
++ Ip address
++ System monitoring status
++ Last connection
 
 ---
+<!-- .slide: data-auto-animate -->
+# First Step
 
-# Prompt
+## Prompt
 
 Prompt is defined by multiple items :
++ username
++ hostname name
++ current folder/place
++ symbol ( *$*, *#*, *~* )
+  - *$*: means user
+  - *#*: means root
+  + *~*: (tilda): home directory
 
-* username
-* hostname name
-* current folder/place
-* symbol ( *$*, *#* )
-  * `$`: means user
-  * `#`: means root
-  * `~` (tilda): home directory
+---
+<!-- .slide: data-auto-animate -->
+# First Step
 
-<br>
-* Prompt example
+## Prompt
+
+### Example
 
 ```bash
 lully@ubt-srv-01:~/demo$
 ```
 
-<br>
-* lully is:
-<br> 
-  * The user
-<br>
-* ubt-srv-01 is:
-<br> 
-  * The hostname
-<br>
-* ~/demo is:
-<br> 
-  * The current folder
-<br>
-* `$` is
-<br> 
-  * It's just a user
-<br>
++ lully is:
+  + The user
++ ubt-srv-01 is:
+  + The hostname
++ ~/demo is:
+  + The current folder
++ *$* is
+  + It's just a user
 
--> Could we mod it ? <-
+---
+<!-- .slide: data-auto-animate -->
+# First Step
+
+## Prompt
+
+### Could we mod it ?
 
 Open the `.bashrc` file into your home directory
 Add theses lines
@@ -100,13 +94,9 @@ RED="\[\033[0;31m\]"
 export PS1="[\t-${RED}\u${NEUTRAL}-@\h]${BLUE} \n\w${NEUTRAL}:# "
 ```
 
-* Result
+Let see the result
 
 ```bash
 [16:02:21-lully-@ubt-srv-01]
 ~:#
 ```
-
----
-
--> * EOF

@@ -1,81 +1,80 @@
-%title: Linux
-%author: sboistel
-%date: 2023-06
+<!-- .slide: data-auto-animate -->
+# Architecture
 
--> # Architecture <-
-
-* Kernel
-* Services
-* Daemon
-* Boot Process
-* Env Variables
-* File System
++ Kernel
++ Services
++ Daemon
++ Boot Process
++ Env Variables
++ File System
 
 ---
+<!-- .slide: data-auto-animate -->
+# Architecture
 
 ## Kernel (Noyau)
 
 Application works through the kernel to reach components.
-
 ( _Similar as Windows_ )
 
 ---
+<!-- .slide: data-auto-animate -->
+# Architecture
 
-# Services
+## Services
 
 In Linux, programs run as processes.
-
-* Some processes run in the background, and are called daemons.
-
-* All server software runs as daemons.
-
-<br>
-
-## What about Systemd ?
-
-Systemd is a system and service **manager** for Linux operating systems.
-
-It is designed to be backwards compatible with _SysV_ ini_t scripts.
-Provides a number of features such as parallel
-
-* startup of system services at boot time
-* on-demand activation of daemons
-* dependency-based service control logic
++ Some processes run in the background, and are called daemons.
++ All server software runs as daemons.
 
 ---
+<!-- .slide: data-auto-animate -->
+# Architecture
+
+## Services
+
+### What about Systemd ?
+
+Systemd is a system and service **manager** for Linux operating systems.
+It is designed to be backwards compatible with _SysV_ ini_t scripts.
+
+- Provides a number of features such as parallel
++ Startup of system services at boot time
++ On-demand activation of daemons
++ Dependency-based service control logic
+
+---
+<!-- .slide: data-auto-animate -->
+# Architecture
 
 ## Daemon
 
-Traditionally, the process names of a daemon end wit
-the letter *d*, for clarification that the process is
-in fact a daemon, and for differentiation between a daemon
-and a normal computer program.
-For example, syslogd is a daemon that implements
-system logging facility, and sshd is a daemon
-that serves incoming SSH connections.
+Traditionally, the process names of a daemon end with the letter **d**, for clarification that the process is in fact a daemon, and for differentiation between a daemon and a normal computer program.
+
+For example, syslog**d** is a daemon that implements system logging facility, and ssh**d** is a daemon that serves incoming SSH connections.
 
 ---
+<!-- .slide: data-auto-animate -->
+# Architecture
 
-# Boot Process
+## Boot Process
 
-The start-up of a Linux operating system follows a step-by-step process.
-
-* BIOS/UEFI
-    * Boot Device ( *CD*, *Flash Drive*, *HDD* )
-        * Boot Loader ( *Grub*.2, *rEFInd*, *MSConfig*, ... )
-            * Kernel
-                * Systemd ( _or initd_ )
+- The start-up of a Linux operating system follows a step-by-step process.
++ BIOS/UEFI
++ Boot Device ( *CD*, *Flash Drive*, *HDD* )
++ Boot Loader ( *Grub*.2, *rEFInd*, *MSConfig*, ... )
++ Kernel
++ Systemd ( _or initd_ )
 
 ---
+<!-- .slide: data-auto-animate -->
+# Architecture
 
-# Env Variables
+## Env Variables
 
-Environment variables are a way to influence
-the behavior of software on your system.
+Environment variables are a way to influence the behavior of software on your system.
 
-For example, the **"LANG"** environment variable
-determines the language that software uses to
-communicate with the user.
+For example, the **"LANG"** environment variable  determines the language that software uses to communicate with the user.
 
 ```bash
 $ env
@@ -85,8 +84,10 @@ LOGNAME=jdoe
 ```
 
 ---
+<!-- .slide: data-auto-animate -->
+# Architecture
 
-# FS (File System)
+## FS (File System)
 
 These are the common top-level directories associated
 
