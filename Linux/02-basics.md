@@ -93,10 +93,14 @@ These are the common top-level directories associated
 
 | Mount Point | Comment                                                 |
 | ----------- | ------------------------------------------------------- |
-| /bin        | *Binary* or *executable* programs.                      |
+| /bin        | *Binary* or *executable* programs.                          |
 | /etc        | System configuration files.                             |
-| /home       | *Home directory*. It is the default current directory.  |
-| /opt        | _Optional_ or third-party software.                     |
-| /tmp        | Temporary space, typically _cleared on reboot_.         |
+| /home       | *Home directory*. It is the default current directory.    |
+| /opt        | _Optional_ or third-party software.                       |
+| /tmp        | Temporary space, typically _cleared on reboot_.           |
 | /usr        | User related programs.                                  |
 | /var        | Log Files.                                              |
+
+---
+
+-> * EOF
