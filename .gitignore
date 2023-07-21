@@ -4,5 +4,8 @@
 # Ignore VSCode workspace
 .vscode
 
+# Ignore Obsidian workspace
+.obsidian
+
 # Ignore other files
 Challenges.md
