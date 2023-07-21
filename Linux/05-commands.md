@@ -1,11 +1,14 @@
-<!-- .slide: data-auto-animate -->
-# HUDGE COMMANDS
+%title: Formation Linux
+%author: Samuel Boistel
+
+-> HUDGE COMMANDS <-
+===
 
 - [man](https://linuxcommand.org/): display online manual documentation pages
 - help: It is also possible to use this parameters to list command parameters
 - whatis: display one-line manual page descriptions
 
-Example:
+- Example:
 
 ```bash
 $ help --help
@@ -33,10 +36,11 @@ help: help [-dms] [pattern ...]
 ```
 
 ---
-<!-- .slide: data-auto-animate -->
-# HUDGE COMMANDS
 
-First command
+-> HUDGE COMMANDS <-
+===
+
+-> First command <-
 
 + Who
     + whoami: Print effective userid
@@ -45,8 +49,9 @@ First command
     + ip:     Network interface parameters
 
 ---
-<!-- .slide: data-auto-animate -->
-# HUDGE COMMANDS
+
+-> HUDGE COMMANDS <-
+===
 
 - Who
 - Discovering
@@ -55,8 +60,9 @@ First command
     + tree: List contents of directories in a tree-like format.
 
 ---
-<!-- .slide: data-auto-animate -->
-# HUDGE COMMANDS
+
+-> HUDGE COMMANDS <-
+===
 
 - Who
 - Discovering
@@ -66,8 +72,9 @@ First command
     + less: opposite of more
 
 ---
-<!-- .slide: data-auto-animate -->
-# HUDGE COMMANDS
+
+-> HUDGE COMMANDS <-
+===
 
 - Who
 - Discovering
@@ -80,8 +87,9 @@ First command
 + By default your are into the user home directory.
 
 ---
-<!-- .slide: data-auto-animate -->
-# HUDGE COMMANDS
+
+-> HUDGE COMMANDS <-
+===
 
 - Who
 - Discovering
@@ -93,8 +101,9 @@ First command
   + uptime: Tell how long the system has been running.
 
 ---
-<!-- .slide: data-auto-animate -->
-# HUDGE COMMANDS
+
+-> HUDGE COMMANDS <-
+===
 
 - Who
 - Discovering

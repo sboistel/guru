@@ -1,35 +1,37 @@
-<!-- .slide: data-auto-animate -->
-# Connectivity
+%title: Formation Linux
+%author: Samuel Boistel
 
-## Reach endpoint.s
+-> Connectivity <-
+===
+
+-> Reach endpoint.s <-
 
 It exist some ways to entering in interactivity with a remote linux.
 
 We used to interact with ssh protocol by default.
 
 ---
-<!-- .slide: data-auto-animate -->
-# Connectivity
 
-## TTY (Console)
+-> Connectivity <-
+===
 
-The tty utility writes the name of
+-> TTY (Console) <-
+
+The [tty](TTY meaning TeleTYperwriter) utility writes the name of
 the terminal attached to standard input to standard output
 
-> [!info]
-> TTY meaning TeleTYperwriter
-
 ---
-<!-- .slide: data-auto-animate -->
-# Connectivity
 
-## Secure Shell Protocol (SSH)
+-> Connectivity <-
+===
+
+-> Secure Shell Protocol (SSH) <-
 
 SSH running through 22 tcp port by default
 SSH is a protocol to uses public-key cryptography
 to authenticate the remote computer and allow it to authenticate the user
 
-### Example
+- Example
 
 ```shell
 ssh $USER@$IP_Address

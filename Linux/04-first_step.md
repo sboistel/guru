@@ -1,5 +1,8 @@
-<!-- .slide: data-auto-animate -->
-# First Step
+%title: Formation Linux
+%author: Samuel Boistel
+
+-> First Step <-
+===
 
 Once you are connected, they are few things to know
 
@@ -7,10 +10,11 @@ Once you are connected, they are few things to know
 + prompt (PS1):   ( *USER*, *hostname*, *path* )
 
 ---
-<!-- .slide: data-auto-animate -->
-# First Step
 
-## Banner
+-> First Step <-
+===
+
+-> Banner <-
 
 Sometimes, distribution like ubuntu set a default banner with relevant informations
 
@@ -35,53 +39,63 @@ Last login: Thu Jul  6 11:27:30 2023 from 10.0.0.x
 ```
 
 We are here able to see :
-+ Ip address
-+ System monitoring status
-+ Last connection
+- Ip address
+- System monitoring status
+- Last connection
 
 ---
-<!-- .slide: data-auto-animate -->
-# First Step
 
-## Prompt
+-> First Step <-
+===
+
+-> Prompt <-
 
 Prompt is defined by multiple items :
-+ username
-+ hostname name
-+ current folder/place
-+ symbol ( *$*, *#*, *~* )
-  - *$*: means user
-  - *#*: means root
+- username
+- hostname name
+- current folder/place
+- symbol ( *$*, *#*, *~* )
+  + *$*: means user
+  + *#*: means root
   + *~*: (tilda): home directory
 
 ---
-<!-- .slide: data-auto-animate -->
-# First Step
 
-## Prompt
+-> First Step <-
+===
 
-### Example
+-> Prompt <-
+
+- Example
 
 ```bash
 lully@ubt-srv-01:~/demo$
 ```
 
-+ lully is:
+- lully is:
+<br>
   + The user
-+ ubt-srv-01 is:
+<br>
+- ubt-srv-01 is:
+<br>
   + The hostname
-+ ~/demo is:
+<br>
+- ~/demo is:
+<br>
   + The current folder
-+ *$* is
+<br>
+- *$* is
+<br>
   + It's just a user
 
 ---
-<!-- .slide: data-auto-animate -->
-# First Step
 
-## Prompt
+-> First Step <-
+===
 
-### Could we mod it ?
+-> Prompt <-
+
+- Could we mod it ?
 
 Open the `.bashrc` file into your home directory
 Add theses lines
