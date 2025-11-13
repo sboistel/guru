@@ -10,9 +10,5 @@ Let's have a look arround those chapters !
 This repository is based on [mdp tool](https://github.com/visit1985/mdp) :
 
 ```bash
-git clone https://github.com/visit1985/mdp.git
-cd mdp
-make
-make install
-mdp sample.md
+sudo apt install mdp
 ```
